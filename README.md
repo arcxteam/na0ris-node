@@ -87,11 +87,11 @@
   ```
   nano proxy.txt
   ```
-- Jalankan dengan python:
+- Jalankan dengan python
   ```
-  python main.py
+  python3 naoris.py
   ```
-- Jalankan dengan Pm2
+- Lalu Jalankan dengan Pm2
   ```
   pm2 start naoris.py --interpreter=python3 --name="naoris-bot"
   ```
