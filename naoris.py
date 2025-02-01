@@ -88,7 +88,7 @@ API_CONFIG = {
 }
 
 APP_CONFIG = {
-    "heartbeat_interval": 6000,  # 6 detik
+    "heartbeat_interval": 10000,  # 10 detik ubah aja
     "data_file": "data.txt",
     "proxy_file": "proxy.txt",
 }
