@@ -93,7 +93,7 @@
   ```
 - Jalankan dengan Pm2
   ```
-  pm2 start main.py --interpreter=python3
+  pm2 start naoris.py --interpreter=python3 --name="naoris-bot"
   ```
 
 ---
@@ -101,18 +101,22 @@
 ## **Catatan**
 - `data.txt`: Berisi token autentikasi (1 token per baris)
 - `proxy.txt`: Berisi daftar proxy (opsional)
-- `main.py`: Skrip utama bot
+- `naoris.py`: Skrip utama bot
 
 ## C. Guankan Command logs
 
 - For any logs
 
 ```
+pm2 logs naoris-bot
+```
+
+```
 pm2 monit
 ```
 
 ```
-pm2 stop main
+pm2 stop naoris-bot
 ```
 
 ```
