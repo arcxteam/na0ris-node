@@ -1,4 +1,5 @@
 # A Completed Guides - Naoris Protocol Run Node DePIN
+# 🆘 JNGN BANYAK CINCONG, APALAGI CEPU IRI SIRIK DLL. LU MAU PAKE MAU GK TERSERAH, HILANGKAN RASA PRIMITIF & PKE ROXY MODAL & HARGAI KODE INI ⚠️
 
 ![image](https://github.com/user-attachments/assets/4594fa32-8c9e-4e51-9782-319404d2acbd)
 
@@ -11,27 +12,21 @@
 
 ---
 
-## **Fitur**
+## **Fitur Bang**
 
-- **Pengiriman heartbeat otomatis**  
-  Mengirimkan sinyal heartbeat secara berkala ke server
-
-- **Dukungan penggunaan proxy (HTTP/s, SOCKS4, SOCKS5)**  
-  Bekerja dengan berbagai jenis proxy untuk menjaga anonimitas
-
-- **Tampilan status akun dan log aktivitas**  
-  Menampilkan status terkini dan riwayat aktivitas akun
-
-- **Dukungan multi-wallet dengan warna berbeda**  
-  Mengelola beberapa wallet sekaligus dengan identifikasi warna unik
+- Otomatis ping!! heartbeat!! setiap 5 menit & random bisa 2x-3x
+- Otomatis deteksi roxy grogol dan lokal (without roxy grogol)
+- Menampilkan info earning point setiap 60 menit juga daily dan uptime
+- Menampilkan infomatif lainnya
+- Mendukung roxy cabang grogol (HTTP/s, SOCKS4, SOCKS5)
 
 ---
 
 ## **Persyaratan**
 
-- **Python 3.7 atau lebih baru**
+- **Python 3.10.12 hingga 3.7 atau lebih baru**
 - **Modul Python yang diperlukan (lihat di bawah)**
-- **Pm2 - Proses Manager (biar lebih tertata/termonitor)**
+- **PM2 - Proses Manager (biar lebih tertata/termonitor)**
 - **Proxy (opsional)**
 
 ---
@@ -39,14 +34,15 @@
 ## A. Setup Install
 **1. Proxies Akun (residentials)**
 
-- Saya menghargai Anda, `GUE GAK PROMOSI, TAPI KARENA GUE PAKAI GUNAKAN` Jika membutuhkan proxy, 2captcha adalah yang terbaik, aman aja. Ada promo diskon 50% mulai 1GB/$3, bayar pakai kripto tanpa biaya, low-bandwitch + pengaturan lokasi IP yang rotasi tergantung generate kamu. [COBA DAFTAR AJA](https://2captcha.com/?from=24919769)
+- Menghargai Anda, `GAK PROMOSI, KARENA GUE PAKE AJA` Jika membutuhkan proxy, 2captcha adalah yang terbaik, aman aja. bayar pakai kripto tanpa biaya, low-bandwitch + pengaturan lokasi IP yang rotasi tergantung generate kamu. [COBA DAFTAR AJA](https://2captcha.com/?from=24919769)
+- Mau yang paling gue banggain bagus pake ini [Bart](https://bartproxies.com/login?referral=wKXo8Uar)
 
 ![image](https://github.com/user-attachments/assets/ac433d24-f082-4ade-9269-a1dea2a71695)
 
 **2. Naoris Menu Utama**
 
 - Cek menu register https://naorisprotocol.network/testnet
-- Ikuti aja perintahnya download wallet + node extention (kalo udah run hapus extensi aja)
+- Ikuti aja perintahnya download wallet + node extention (kalo udah run hpus/off extensi aja)
 - Kode refferal gue ini `sVaFdrRX6zV8AsZO`
 
 **B. Install Bang**
