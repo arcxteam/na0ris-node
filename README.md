@@ -58,26 +58,26 @@
   git clone https://github.com/arcxteam/na0ris-node.git
   cd na0ris-node
   ```
-  - Install Pm2 
+  - Install PM2 
   ```
   npm install -g pm2
   ```
   - Instal Modul
    ```bash
-   pip install --user requests[socks] colorama pyjwt
+   pip3 install -r requirements.txt
    ```
 
 ---
 
 2. **Cara Menjalankan**
 
-- Dapatkan token dengan membuka DevTools `CTRL+SHIFT+i` atau `F12` atau `inspection` di ekstensi Naoris Protocol Node contoh token dimulai dengan `eysjsgwhdy3738sswjwsxxxxxx`
+- Dapatkan token dengan membuka DevTools `CTRL+SHIFT+i` atau `F12` atau `inspection` di ekstensi Naoris Protocol Node contoh token dimulai dengan devicehash `36252513`
 
 ![image](https://github.com/user-attachments/assets/315221bb-1cfc-4d91-884d-70197f7597a2)
 
-- Tempel wallet_token yang didapat ke dalam file `data.txt` lalu CTRL+X dan Y
+- Tempel wallet & hash device yang ente punya ke dalam file `accounts.json` lalu CTRL+X dan Y
   ```
-  nano data.txt
+  nano accounts.json
   ```
 
 - Jika menggunakan proxy (opsional), tambahkan ke file `proxy.txt` dengan format lalu CTRL+X dan Y
@@ -93,32 +93,18 @@
   ```
 - Lalu Jalankan dengan Pm2
   ```
-  pm2 start naoris.py --interpreter=python3 --name="naoris-bot"
+  pm2 start naoris.py --name naoris-bot
   ```
 
 ---
 
 ## **Catatan**
-- `data.txt`: Berisi token autentikasi (1 token per baris)
-- `proxy.txt`: Berisi daftar proxy (opsional)
+- `accounts.json`: Berisi token devicehash dan alamat dompet
+- `proxy.txt`: Berisi daftar proxy 
 - `naoris.py`: Skrip utama bot
 
-## C. Guankan Command logs
+## C. Cek Command logs
 
-- For any logs
-
-```
-pm2 logs naoris-bot
-```
-
-```
-pm2 monit
-```
-
-```
-pm2 stop naoris-bot
-```
-
-```
-pm2 -v
-```
+- status logs info `pm2 logs naoris-bot`
+- status manejemen PM2 `pm2 status` atau `pm2 monit`
+- Untuk stop&delete `pm2 stop naoris-bot` | `pm2 delete naoris-bot`
