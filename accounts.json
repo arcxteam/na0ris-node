@@ -1,0 +1,10 @@
+[
+    {
+        "Address": "wallet-address-1",
+        "deviceHash": "device-hash-1"
+    },
+    {
+        "Address": "wallet-address-2",
+        "deviceHash": "device-hash-2"
+    }
+]
