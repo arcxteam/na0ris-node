@@ -12,7 +12,7 @@
 
 ---
 
-## **Fitur Bang**
+## Fitur Bang!
 
 - Otomatis ping!! heartbeat!! setiap 5 menit & random bisa 2x-3x
 - Otomatis deteksi roxy grogol dan lokal (without roxy grogol)
@@ -22,7 +22,7 @@
 
 ---
 
-## **Persyaratan**
+## Persyaratan
 
 - **Python 3.10.12 hingga 3.7 atau lebih baru**
 - **Modul Python yang diperlukan (lihat di bawah)**
@@ -31,7 +31,7 @@
 
 ---
 
-## A. Setup Install
+## Setup Install
 **1. Proxies Akun (residentials)**
 
 - Menghargai Anda, `GAK PROMOSI, KARENA GUE PAKE AJA` Jika membutuhkan proxy, 2captcha adalah yang terbaik, aman aja. bayar pakai kripto tanpa biaya, low-bandwitch + pengaturan lokasi IP yang rotasi tergantung generate kamu. [COBA DAFTAR AJA](https://2captcha.com/?from=24919769)
@@ -45,7 +45,7 @@
 - Ikuti aja perintahnya download wallet + node extention (kalo udah run hpus/off extensi aja)
 - Kode refferal gue ini `sVaFdrRX6zV8AsZO`
 
-**B. Install Bang**
+### Install Bang
 
 1. **Kloning Repositori & Instal Modul:**
 
@@ -65,7 +65,7 @@
 
 ---
 
-2. **Cara Menjalankan**
+2. **Cara menjalankan**
 
 - Dapatkan token dengan membuka DevTools `CTRL+SHIFT+i` atau `F12` atau `inspection` di ekstensi Naoris Protocol Node contoh token dimulai dengan devicehash `36252513`
 
@@ -76,31 +76,22 @@
   nano accounts.json
   ```
 
-- Jika menggunakan proxy (opsional), tambahkan ke file `proxy.txt` dengan format lalu CTRL+X dan Y
-  
+- Jika menggunakan proxy (opsional), tambahkan ke file `nano proxy.txt` dengan format lalu CTRL+X dan Y 
   `http://username:password@host:port | socks4://username:password@host:port | socks5://username:password@host:port | http://host:port | socks4://host:port | socks5://host:port`
   
-  ```
-  nano proxy.txt
-  ```
-- Jalankan dengan python
+- Jalankan pertama
   ```
   python3 naoris.py
   ```
-- Lalu Jalankan dengan Pm2
+- Lalu jalankan kedua dengan PM2
   ```
   pm2 start naoris.py --name naoris-bot
   ```
 
 ---
 
-## **Catatan**
-- `accounts.json`: Berisi token devicehash dan alamat dompet
-- `proxy.txt`: Berisi daftar proxy 
-- `naoris.py`: Skrip utama bot
-
-## C. Cek Command logs
+## Cek Command logs
 
 - status logs info `pm2 logs naoris-bot`
 - status manejemen PM2 `pm2 status` atau `pm2 monit`
-- Untuk stop&delete `pm2 stop naoris-bot` | `pm2 delete naoris-bot`
+- untuk stop & delete `pm2 stop naoris-bot` | `pm2 delete naoris-bot`
