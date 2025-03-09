@@ -77,7 +77,7 @@
   ```
   pm2 start naoris.py --name naoris-bot
   ```
-
+![image](https://github.com/user-attachments/assets/1ede0d43-a02a-4a83-854e-60d9fc61b3eb)
 ---
 
 ## Cek Command logs
