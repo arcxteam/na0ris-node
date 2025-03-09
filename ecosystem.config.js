@@ -4,7 +4,7 @@ module.exports = {
     script: "naoris.py",
     interpreter: "python3",
     autorestart: true,
-    watch: false,
+    watch: true,
     max_memory_restart: "150M",
     restart_delay: 10000,
     log_date_format: "YYYY-MM-DD HH:mm:ss Z",
@@ -14,7 +14,7 @@ module.exports = {
     max_size: "10M",
     rotate_logs: true,
     env: {
-      NODE_ENV: "production",
+      PYTHON_ENV: "production",
       TZ: "Asia/Jakarta"
     }
   }]
