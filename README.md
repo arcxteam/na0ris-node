@@ -71,11 +71,12 @@
   `http://username:password@host:port | socks4://username:password@host:port | socks5://username:password@host:port | http://host:port | socks4://host:port | socks5://host:port`
   
 - Jalankan yang mana aja boleh
+    ```
+  pm2 start naoris.py --name naoris-bot
+  ```
+
   ```
   pm2 start ecosystem.config.js
-  ```
-  ```
-  pm2 start naoris.py --name naoris-bot
   ```
 ![image](https://github.com/user-attachments/assets/1ede0d43-a02a-4a83-854e-60d9fc61b3eb)
 ---
