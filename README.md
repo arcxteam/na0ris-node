@@ -79,11 +79,10 @@
 - Jika menggunakan proxy (opsional), tambahkan ke file `nano proxy.txt` dengan format lalu CTRL+X dan Y 
   `http://username:password@host:port | socks4://username:password@host:port | socks5://username:password@host:port | http://host:port | socks4://host:port | socks5://host:port`
   
-- Jalankan pertama
+- Jalankan yang mana aja boleh
   ```
-  python3 naoris.py
+  pm2 start ecosystem.config.js
   ```
-- Lalu jalankan kedua dengan PM2
   ```
   pm2 start naoris.py --name naoris-bot
   ```
