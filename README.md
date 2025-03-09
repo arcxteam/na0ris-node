@@ -20,8 +20,6 @@
 - Menampilkan infomatif lainnya
 - Mendukung roxy cabang grogol (HTTP/s, SOCKS4, SOCKS5)
 
----
-
 ## Persyaratan
 
 - **Python 3.10.12 hingga 3.7 atau lebih baru**
@@ -35,9 +33,7 @@
 **1. Proxies Akun (residentials)**
 
 - Menghargai Anda, `GAK PROMOSI, KARENA GUE PAKE AJA` Jika membutuhkan proxy, 2captcha adalah yang terbaik, aman aja. bayar pakai kripto tanpa biaya, low-bandwitch + pengaturan lokasi IP yang rotasi tergantung generate kamu. [COBA DAFTAR AJA](https://2captcha.com/?from=24919769)
-- Mau yang paling gue banggain bagus pake ini [Bart](https://bartproxies.com/login?referral=wKXo8Uar)
-
-![image](https://github.com/user-attachments/assets/ac433d24-f082-4ade-9269-a1dea2a71695)
+- Mau yang paling gue banggain bagus pake ini [Bartprox](https://bartproxies.com/login?referral=wKXo8Uar)
 
 **2. Naoris Menu Utama**
 
@@ -63,15 +59,10 @@
    pip3 install -r requirements.txt
    ```
 
----
-
 2. **Cara menjalankan**
 
 - Dapatkan token dengan membuka DevTools `CTRL+SHIFT+i` atau `F12` atau `inspection` di ekstensi Naoris Protocol Node contoh token dimulai dengan devicehash `36252513`
-
-![image](https://github.com/user-attachments/assets/315221bb-1cfc-4d91-884d-70197f7597a2)
-
-- Tempel wallet & hash device yang ente punya ke dalam file `accounts.json` lalu CTRL+X dan Y
+- Tempel alamat wallet & deviceHash yang ente punya ke dalam file `accounts.json` lalu CTRL+X dan Y
   ```
   nano accounts.json
   ```
